@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito';
+    color: black;
+    background-color: orange;
+    font-weight: 400;
+    margin: 0;
+}
+
+footer {
+    padding: 25px 0px;
+    text-align: center;
+    background-color: rgb(26, 22, 19);
+    color: rgb(231, 233, 224);
+    display: block;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+    margin: 10px auto 0px auto;
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.display-flex {
+    display: flex;
+    justify-items: center;
+}
+
+.column-f{
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-tagline {
+    margin: 0;
+    padding: 0;
+    color: firebrick;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.text-align{
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.order-btn {
+    background-color: rgba($color: #1db14c, $alpha: 1.0);
+    box-shadow: 3px 3px 6px 0px darkgreen;
+}
+
+.complete-btn {
+    background-color: rgb(243, 7, 58);
+    box-shadow: 3px 3px 6px 0px rgb(78, 6, 6);
+}
+
+.back-btn {
+    background-color: rgba($color: #4c2882, $alpha: 1.0);
+    box-shadow: 3px 3px 6px 0px rgb(53, 4, 86);
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.create-form{
+  background-color: rgb(26, 22, 19);
+  color: white;
+  padding: 30px;
+  min-width: 300px;
+  margin: 20px 0;
+  font-size: 20px;
+  box-shadow: 4px 6px 6px 0px rgb(12, 8, 6);
+
+  input{
+      width: 100%;
+      font-size: 20px;
+
+  }
+
+  select{
+      width: 100%;
+      margin: 5px;
+      font-size: 20px;
+  }
+  option{
+    font-size: 20px;
+
+}
+  fieldset {
+      margin: 10px;
+      width: 100%;
+
+      div{
+          display: flex;
+          padding: 10px;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-content: space-between;
+      }
+
+      input{
+          width: 30px;
+          align-self: center;
+          justify-self: flex-end;
+      }
+  }
+}
+
+.pizza-list-container {
+    background-color: rgb(241, 192, 30);
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 200px !important;
+
+    table {
+        width: 100%;
+        margin: 10 auto;
+        border-spacing: 0px;
+        border-collapse: collapse;
+
+
+        tbody{
+            padding: 10px;
+            tr {
+                padding: 10px;
+                background-color: whitesmoke;
+                th {
+                   font-size: 20px;
+
+                }
+
+                td {
+                    width: 120px;
+                    height: 45px;
+                    text-align: center;
+                    text-transform: uppercase;
+
+                    .btn {
+                        padding: 6px;
+                        color: white;
+                        background-color: blueviolet;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        margin: 5px 0;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    div{
+        h1 {
+        color: rgba($color: #2a251b, $alpha: 1.0);
+        text-shadow: 1px 2px 2px rgb(51, 27, 27);
+        text-transform: uppercase;
+
+        }
+    }
+    .pizza-row {
+        background-color: goldenrod;
+    }
+}

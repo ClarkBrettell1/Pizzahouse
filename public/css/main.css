@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito";
+  color: black;
+  background-color: orange;
+  font-weight: 400;
+  margin: 0;
+}
+
+footer {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #1a1613;
+  color: #e7e9e0;
+  display: block;
+}
+
+#logo {
+  height: 150px;
+  width: 150px;
+  margin: 10px auto 0px auto;
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.display-flex {
+  display: flex;
+  justify-items: center;
+}
+
+.column-f {
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-tagline {
+  margin-bottom: 10px;
+  padding: 0;
+  color: firebrick;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.text-align {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.order-btn {
+  background-color: #1db14c;
+  box-shadow: 3px 3px 6px 0px darkgreen;
+}
+
+.complete-btn {
+  background-color: #f3073a;
+  box-shadow: 3px 3px 6px 0px #4e0606;
+}
+
+.back-btn {
+  background-color: #4c2882;
+  box-shadow: 3px 3px 6px 0px #350456;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.create-form {
+  background-color: #1a1613;
+  color: white;
+  padding: 30px;
+  min-width: 300px;
+  margin: 20px 0;
+  font-size: 20px;
+  box-shadow: 4px 6px 6px 0px #0c0806;
+}
+
+.create-form input {
+  width: 100%;
+  font-size: 20px;
+}
+
+.create-form select {
+  width: 100%;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.create-form option {
+  font-size: 20px;
+}
+
+.create-form fieldset {
+  margin: 10px;
+  width: 100%;
+}
+
+.create-form fieldset div {
+  display: flex;
+  padding: 10px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.create-form fieldset input {
+  width: 30px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.pizza-list-container {
+  background-color: #f1c01e;
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 200px !important;
+}
+
+.pizza-list-container table {
+  width: 100%;
+  margin: 10 auto;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.pizza-list-container table tbody {
+  padding: 10px;
+}
+
+.pizza-list-container table tbody tr {
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+.pizza-list-container table tbody tr th {
+  font-size: 20px;
+}
+
+.pizza-list-container table tbody tr td {
+  width: 120px;
+  height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pizza-list-container table tbody tr td .btn {
+  padding: 6px;
+  color: white;
+  background-color: blueviolet;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.pizza-list-container div h1 {
+  color: #2a251b;
+  text-shadow: 1px 2px 2px #331b1b;
+  text-transform: uppercase;
+}
+
+.pizza-list-container .pizza-row {
+  background-color: goldenrod;
+}
+
