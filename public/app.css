@@ -4526,6 +4526,10 @@ input[type=button].btn-block {
   white-space: nowrap;
 }
 
+.navbar-brand a {
+    display: inline-block;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
